@@ -1,3 +1,7 @@
+function n_files {
+	ls -l | wc -l
+}
+
 echo -n "How many are there do you think in this directory?:"
 
 read guess
